@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: https://bill-managment-system-bakend.onrender.com || "http://localhost:5000/api",
+  baseURL: https://bill-managment-system-bakend.onrender.com/api || "http://localhost:5000/api",
 });
 
 // Add token to headers for every request
